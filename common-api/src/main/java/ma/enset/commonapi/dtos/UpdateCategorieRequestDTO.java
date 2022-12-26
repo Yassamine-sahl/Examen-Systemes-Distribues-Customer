@@ -5,9 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data @NoArgsConstructor @AllArgsConstructor
-public class CreateCustomerRequestDTO {
+public class UpdateCategorieRequestDTO {
+    private String id;
     private String nom ;
-    private String adresse ;
-    private  String email  ;
-    private String telephone ;
+    private String description ;
 }
